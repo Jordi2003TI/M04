@@ -1,14 +1,53 @@
-body{
-    background-color: pink;
-    font-family: Arial, Helvetica, sans-serif;
+body {
+   background-image: url(https://media.tenor.com/Xia-ma05T-YAAAAd/dragon-ball-z-ds.gif);
+   background-size: cover;
+   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    color: blue;
-    text-align: center;
-    text-decoration: underline;
+   color: red;
+   text-align: center;
+   text-decoration: underline;
 }
 
-class .caja1 {
-    align-items: centerS;
+.caja_1 {
+   align-items: centerS;
+}
+
+.caja_2 {
+   width: 800px; /* es la anchura */
+   height: 1000px;  /* es la altura*/
+   background-color: aqua;
+   margin: 0 auto;
+   margin-top: 100px;
+   text-align: center;
+   border: 2px solid #333;
+}
+
+.caja_3 {
+   text-align: left;
+   margin: 20px;
+}
+
+.cuadrado1 { /* . son para las clases */
+   display: inline-block;
+   margin-right: 10px;
+}
+
+#NombreApellido {  /* los # son para las id*/
+   width: 600px;
+}
+
+#Edad {
+   margin-top: 10px;
+   width: 692px;
+}
+
+#Email {
+   width: 598px;
+}
+
+#Comentario {
+   width: 500px;
+   height: 180px;
 }

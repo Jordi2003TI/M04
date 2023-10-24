@@ -1,14 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Practica_4_1.css">
 </head>
+
 <body>
-    <div class="caja 1">
-        <h1>¿Que dragon ball te gusta mas?</h1>
-    </div>
+    <form action="Enviado.html">
+        <!-- Esto sirve para poder linkear un docuemto html con otro, con esto podemos hacer que un boton funcione y nos lleve a otra pagina, importante cerrar el from al final del codigo-->
+        <div class="caja_1">
+            <h1>¿Que dragon ball te gusta mas?</h1>
+        </div>
+        <div class="caja_2">
+            <!--Importante separar bien los div, es solo para poder llegar a entender mejor el codigo-->
+            <div class="caja_3">
+                <h2>Cuentanos algo sobre ti</h2>
+                <div class="caja_4">
+                    <div>
+                        <label for="Email">Correo electronico</label>
+                        <input type="text" name="Email" id="Email" placeholder="Escriu aqui">
+                    </div>
+                    <br></br>
+                    <div class="cuadrado1">
+                        <label for="NombreApellido">Nombre y apellido</label>
+                        <input type="text" id="NombreApellido" name="NombreApellido" placeholder="Escriu aqui">
+                        <!-- El placeholder sirve para poner lo que queramos dentro de type, como por ejemplo una barra de escrivir podemos poner dentro de ella escriba aqui-->
+                    </div>
+                    <br></br> <!--Para un salto de linea-->
+                    <div>
+                        <label for="Edad">Edad</label>
+                        <input type="text" name="Edad" id="Edad" placeholder="Escriu aqui">
+                    </div>
+                    <br></br>
+
+                </div>
+                <br></br>
+                <h2>¿Que modulo cursas?</h2>
+                <div class="caja_5">
+                    <div>
+                        <input type="radio" name="opcion" id="m_radio">
+                        <label for="m_radio">ASIX</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="opcion" id="m_radio2">
+                        <label for="m_radio2">DAM</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="opcion" id="m_radio3">
+                        <label for="m_radio3">DAW</label>
+                    </div>
+                    <br></br>
+
+                    <div class="caja_6">
+                        <label for="Curso">En que curso estas</label>
+                        <select id="Curso" name="Curso">
+                            <option value="1">primero</option>
+                            <option value="2">segundo</option>
+                        </select>
+
+                    </div>
+                    <br></br>
+                    <h2>¿Que serie es tu favorita?</h2>
+
+                    <div class="caja_7">
+                        <div>
+                            <input type="radio" id="NO" name="opcion2" required checked>
+                            <!-- La opcion rquired checked es para marcar una casilla desde el principio. -->
+                            <label for="NO">Que es dragon ball, es comida?</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="DBS" name="opcion2">
+                            <label for="DBS">Dragon ball Super</label>
+                        </div>
+
+                        <div>
+                            <input type="radio" id="DBGT" name="opcion2">
+                            <label for="DBGT">Dragon ball GT</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="DBZ" name="opcion2">
+                            <label for="DBZ">Dragon ball Z</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="DB" name="opcion2">
+                            <label for="DB">Dragon ball</label>
+                        </div>
+
+                    </div>
+                    <br></br>
+                    <div class="caja_8">
+                        <label for="Comentario">¿Que es lo que te gusto mas de ese arco?</label> <br></br>
+                        <input type="text" id="Comentario" name="Comentario">
+                    </div>
+                    <br></br>
+                    <div class="caja_9">
+                        <input type="submit" id="m_botonEnviar" value="Enviar">
+                    </div>
+
+                </div>
+            </div>
+    </form>
+
 </body>
+
 </html>

@@ -1,0 +1,12 @@
+body {
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+}
+
+#m_botonVolver {
+    display: block;
+    margin: 0 auto;
+}
