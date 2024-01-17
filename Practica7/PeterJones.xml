@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+/*Jordi, Carol, Andreu y Samuel*/
+
+<devices>
+    <info_personal>
+        <name>Peter</name>
+        <Surname>Jones</Surname>
+        <age>19</age>
+        <height>1.78</height>
+        <job>Informatic</job>
+        <favorite_Simile>&lt;3;</favorite_Simile>
+        <pets>
+            <pet>black cat</pet>
+            <pet>chiwawa</pet>
+        </pets>
+        <address>
+            <street>pau claris</street>
+            <number>121</number>
+            <cp>08012</cp>
+        </address>
+    </info_personal>
+    <social_media>
+        <instagram>
+            <user>pjones22</user>
+            <email>pjones22@gmail.com</email>
+        </instagram>
+        <twitter>true</twitter>
+    </social_media>
+    <firends>
+        <friend>
+            <name>jhon</name>
+            <Surname>Doe</Surname>
+            <age>35</age>
+        </friend>
+        <friend>
+            <name>Anna</name>
+            <Surname>Smith</Surname>
+            <age>null</age>
+        </friend>
+    </firends>
+</devices>
