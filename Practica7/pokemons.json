@@ -1,0 +1,107 @@
+{
+    "pokemons": [
+        {
+            "nombre": "zecrom",
+            "id": 0001,
+            "Tipos": ["Dragon", "Electrico"],
+            "Peso": 345,
+            "Altura": 2.9,
+            "Estadisticas": {
+                "velocidad": 90,
+                "fortaleza": 120,
+                "precision": 120,
+                "Resistencia": 150
+            },
+            "movimientos": [
+                {
+                    "nombre": "trueno",
+                    "descripcion": "Causa daño y tiene probabilidad del 10% para paralizar",
+                    "potencia": 120,
+                    "contacto": {
+                        "lluvia": "100%",
+                        "sol": "50%"
+                    }
+                },
+                {
+                    "nombre": "Enfado",
+                    "descripcion": "Monta en cólera y golpea el suelo para infligir daño a los rivales en el área de efecto.",
+                    "potencia": 120,
+                    "contacto": "85%"
+                },
+                {
+                    "nombre": "Vozarrón",
+                    "descripcion": "Causa daño y no tiene ningún efecto secundario. En combates dobles daña a todos los Pokémon rivales, mientras que en los combates triples daña a todos los oponentes adyacentes.",
+                    "potencia": 90,
+                    "contacto": 100
+                },
+                {
+                    "nombre": "Ataquefulgor",
+                    "descripcion": "Es un movimiento de tipo eléctrico",
+                    "potencia": 135,
+                    "contacto": 85
+                }
+            ],
+            "url_imagen": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c411a643-a62b-4b01-a3cb-c0494e561c5f/d4m8qoj-fcac3e8a-a2f0-4434-8c82-0f34a977702f.png?token=...",
+            "Evolucion": [
+                {
+                    "nombre": "movie heros teq",
+                    "nivel": 40
+                },
+                {
+                    "nombre": "aroamon",
+                    "nivel": 80
+                }
+            ]
+        },
+        {
+            "Nombre":"Charmeleon",
+            "id":0005,
+            "Tipos": "Fuego",
+            "Peso":19.0,
+            "Altura":1.1,
+            "Estadisticas":{
+                "velocidad":3,
+                "fortaleza":4,
+                "precision":4,
+                "resistencia":2
+            },
+            "movimientos":[
+                {
+                    "nombre":"Ascuaas",
+                    "descripcion":"Causa daño y tiene una probabilidad del 10% de quemar al objetivo.",
+                    "potencia":"40",
+                    "contacto":"100"
+                },
+                {
+                    "nombre":"Pantalla de humo",
+                    "descripcion":"Reduce en un nivel la precisión del objetivo.",
+                    "potencia":"-",
+                    "contacto":"100"
+                },
+                {
+                    "nombre":"Dragoaliento",
+                    "descripcion":"Causa daño y tiene una probabilidad del 30% de paralizar al objetivo",
+                    "potencia":"60",
+                    "contacto":"100"
+                },
+                {
+                    "nombre":"Colmillo ígneo",
+                    "descripcion":"causa daño y tiene una probabilidad del 10% de quemar al rival y un 10% de amedrentarlo.",
+                    "potencia":"65",
+                    "contacto":"95"
+                }
+            ], 
+            "url_imagen":"https://static.wikia.nocookie.net/minipokedex/images/3/34/5-Charmeleon.png/revision/latest?cb=20170929215817&path-prefix=es",
+            "Evolucion":[
+                {
+                "Nom":"Charmander", 
+                "Nivel":16
+                },
+                {
+                "Nombre":"Charizard",
+                "Nivel":36
+                }
+            ]
+        }
+    ]
+}
