@@ -2,10 +2,17 @@
     "pokemons": [
         {
             "nombre": "zecrom",
-            "id": 0001,
+            "id": 1,
             "Tipos": ["Dragon", "Electrico"],
-            "Peso": 345,
-            "Altura": 2.9,
+            "Peso": {
+                "unidad": "Kg",
+                "valor": 260
+            },
+            "Altura":
+            {
+                "unidad": "metros",
+                "valor":2.9
+            },
             "Estadisticas": {
                 "velocidad": 90,
                 "fortaleza": 120,
@@ -55,10 +62,16 @@
         },
         {
             "Nombre":"Charmeleon",
-            "id":0005,
+            "id":5,
             "Tipos": "Fuego",
-            "Peso":19.0,
-            "Altura":1.1,
+            "Peso":{
+                "unidad": "Kg",
+                "valor": 19.0
+            },
+            "Altura":{
+                "unidad": "metros",
+                "valor": 1.1
+            },
             "Estadisticas":{
                 "velocidad":3,
                 "fortaleza":4,
@@ -90,16 +103,16 @@
                     "potencia":"65",
                     "contacto":"95"
                 }
-            ], 
+            ],
             "url_imagen":"https://static.wikia.nocookie.net/minipokedex/images/3/34/5-Charmeleon.png/revision/latest?cb=20170929215817&path-prefix=es",
             "Evolucion":[
                 {
-                "Nom":"Charmander", 
-                "Nivel":16
+                    "Nom":"Charmander",
+                    "Nivel":16
                 },
                 {
-                "Nombre":"Charizard",
-                "Nivel":36
+                    "Nombre":"Charizard",
+                    "Nivel":36
                 }
             ]
         }
