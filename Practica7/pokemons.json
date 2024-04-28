@@ -9,10 +9,10 @@
                 "valor": 260
             },
             "Altura":
-            {
+                {
                 "unidad": "metros",
                 "valor":2.9
-            },
+                },
             "Estadisticas": {
                 "velocidad": 90,
                 "fortaleza": 120,
@@ -82,37 +82,37 @@
                 {
                     "nombre":"Ascuaas",
                     "descripcion":"Causa daño y tiene una probabilidad del 10% de quemar al objetivo.",
-                    "potencia":"40",
-                    "contacto":"100"
+                    "potencia": 40,
+                    "contacto": 100
                 },
                 {
                     "nombre":"Pantalla de humo",
                     "descripcion":"Reduce en un nivel la precisión del objetivo.",
-                    "potencia":"-",
-                    "contacto":"100"
+                    "potencia":null,
+                    "contacto":100
                 },
                 {
                     "nombre":"Dragoaliento",
                     "descripcion":"Causa daño y tiene una probabilidad del 30% de paralizar al objetivo",
-                    "potencia":"60",
-                    "contacto":"100"
+                    "potencia":60,
+                    "contacto":100
                 },
                 {
                     "nombre":"Colmillo ígneo",
                     "descripcion":"causa daño y tiene una probabilidad del 10% de quemar al rival y un 10% de amedrentarlo.",
-                    "potencia":"65",
-                    "contacto":"95"
+                    "potencia":65,
+                    "contacto":95
                 }
-            ],
+            ], 
             "url_imagen":"https://static.wikia.nocookie.net/minipokedex/images/3/34/5-Charmeleon.png/revision/latest?cb=20170929215817&path-prefix=es",
             "Evolucion":[
                 {
-                    "Nom":"Charmander",
-                    "Nivel":16
+                "Nom":"Charmander", 
+                "Nivel":16
                 },
                 {
-                    "Nombre":"Charizard",
-                    "Nivel":36
+                "Nombre":"Charizard",
+                "Nivel":36
                 }
             ]
         }
